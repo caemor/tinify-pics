@@ -1,0 +1,15 @@
+[package]
+name = "tinify-pics"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+tinify-rs = {path = "../tinify-rs/"}#0.2.0"
+image = "0.23.6"
+clap = "3.0.0-beta.4"
+log = "0.4.14"
+env_logger = "0.8.3"
+dotenv = "0.15.0"
